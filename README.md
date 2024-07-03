@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Welcome to my LeetCode Solutions repository! This repository contains solutions to various LeetCode problems that I've solved. The solutions are organized by problem number, category, and difficulty.
+Welcome to my [LeetCode Solutions](https://leetcode.eduardonunez.dev) repository! This repository contains solutions to various LeetCode problems that I've solved. The solutions are organized by problem number, category, and difficulty.
 
 ## Table of Contents
 
