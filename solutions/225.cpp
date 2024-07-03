@@ -1,3 +1,6 @@
+// Title: Implement Stack using Queues 
+// Category: Stack
+// Difficulty: Easy 
 /**
  * Your MyStack object will be instantiated and called as such:
  * MyStack* obj = new MyStack();

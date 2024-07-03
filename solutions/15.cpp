@@ -1,3 +1,6 @@
+// Title: 3Sum
+// Category: Array
+// Difficulty: Medium
 #include <vector> 
 
 class Solution {

@@ -1,0 +1,782 @@
+{
+    "1": {
+        "title": "Two Sum",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "2": {
+        "title": "Add Two Numbers",
+        "category": "Linked List",
+        "difficulty": "Medium"
+    },
+    "3": {
+        "title": "Longest Substring Without Repeating Characters",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "4": {
+        "title": "Median of Two Sorted Arrays",
+        "category": "Array",
+        "difficulty": "Hard"
+    },
+    "5": {
+        "title": "Longest Palindromic Substring",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "7": {
+        "title": "Reverse Integer",
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    "9": {
+        "title": "Palindrome Number",
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    "10": {
+        "title": "Regular Expression Matching",
+        "category": "String",
+        "difficulty": "Hard"
+    },
+    "11": {
+        "title": "Container With Most Water",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "13": {
+        "title": "Roman to Integer",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "14": {
+        "title": "Longest Common Prefix",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "18": {
+        "title": "4Sum",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "20": {
+        "title": "Valid Parentheses",
+        "category": "Stack",
+        "difficulty": "Easy"
+    },
+    "21": {
+        "title": "Merge Two Sorted Lists",
+        "category": "Linked List",
+        "difficulty": "Easy"
+    },
+    "26": {
+        "title": "Remove Duplicates from Sorted Array",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "27": {
+        "title": "Remove Element",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "28": {
+        "title": "Implement strStr()",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "33": {
+        "title": "Search in Rotated Sorted Array",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "35": {
+        "title": "Search Insert Position",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "42": {
+        "title": "Trapping Rain Water",
+        "category": "Array",
+        "difficulty": "Hard"
+    },
+    "53": {
+        "title": "Maximum Subarray",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "55": {
+        "title": "Jump Game",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "66": {
+        "title": "Plus One",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "67": {
+        "title": "Add Binary",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "70": {
+        "title": "Climbing Stairs",
+        "category": "Dynamic Programming",
+        "difficulty": "Easy"
+    },
+    "78": {
+        "title": "Subsets",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "79": {
+        "title": "Word Search",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "80": {
+        "title": "Remove Duplicates from Sorted Array II",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "88": {
+        "title": "Merge Sorted Array",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "94": {
+        "title": "Binary Tree Inorder Traversal",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "101": {
+        "title": "Symmetric Tree",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "102": {
+        "title": "Binary Tree Level Order Traversal",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "103": {
+        "title": "Binary Tree Zigzag Level Order Traversal",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "104": {
+        "title": "Maximum Depth of Binary Tree",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "108": {
+        "title": "Convert Sorted Array to Binary Search Tree",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "118": {
+        "title": "Pascal's Triangle",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "119": {
+        "title": "Pascal's Triangle II",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "121": {
+        "title": "Best Time to Buy and Sell Stock",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "122": {
+        "title": "Best Time to Buy and Sell Stock II",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "125": {
+        "title": "Valid Palindrome",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "136": {
+        "title": "Single Number",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "139": {
+        "title": "Word Break",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "141": {
+        "title": "Linked List Cycle",
+        "category": "Linked List",
+        "difficulty": "Easy"
+    },
+    "146": {
+        "title": "LRU Cache",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "151": {
+        "title": "Reverse Words in a String",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "155": {
+        "title": "Min Stack",
+        "category": "Stack",
+        "difficulty": "Easy"
+    },
+    "160": {
+        "title": "Intersection of Two Linked Lists",
+        "category": "Linked List",
+        "difficulty": "Easy"
+    },
+    "162": {
+        "title": "Find Peak Element",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "167": {
+        "title": "Two Sum II - Input Array Is Sorted",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "169": {
+        "title": "Majority Element",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "170": {
+        "title": "Two Sum III - Data structure design",
+        "category": "Design",
+        "difficulty": "Easy"
+    },
+    "189": {
+        "title": "Rotate Array",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "190": {
+        "title": "Reverse Bits",
+        "category": "Binary",
+        "difficulty": "Easy"
+    },
+    "199": {
+        "title": "Binary Tree Right Side View",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "200": {
+        "title": "Number of Islands",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "203": {
+        "title": "Remove Linked List Elements",
+        "category": "Linked List",
+        "difficulty": "Easy"
+    },
+    "205": {
+        "title": "Isomorphic Strings",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "206": {
+        "title": "Reverse Linked List",
+        "category": "Linked List",
+        "difficulty": "Easy"
+    },
+    "209": {
+        "title": "Minimum Size Subarray Sum",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "215": {
+        "title": "Kth Largest Element in an Array",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "226": {
+        "title": "Invert Binary Tree",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "230": {
+        "title": "Kth Smallest Element in a BST",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "234": {
+        "title": "Palindrome Linked List",
+        "category": "Linked List",
+        "difficulty": "Easy"
+    },
+    "236": {
+        "title": "Lowest Common Ancestor of a Binary Tree",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "238": {
+        "title": "Product of Array Except Self",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "242": {
+        "title": "Valid Anagram",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "283": {
+        "title": "Move Zeroes",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "308": {
+        "title": "Range Sum Query 2D - Mutable",
+        "category": "Matrix",
+        "difficulty": "Hard"
+    },
+    "309": {
+        "title": "Best Time to Buy and Sell Stock with Cooldown",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "328": {
+        "title": "Odd Even Linked List",
+        "category": "Linked List",
+        "difficulty": "Medium"
+    },
+    "334": {
+        "title": "Increasing Triplet Subsequence",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "345": {
+        "title": "Reverse Vowels of a String",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "347": {
+        "title": "Top K Frequent Elements",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "374": {
+        "title": "Guess Number Higher or Lower",
+        "category": "Binary Search",
+        "difficulty": "Easy"
+    },
+    "380": {
+        "title": "Insert Delete GetRandom O(1)",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "383": {
+        "title": "Ransom Note",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "387": {
+        "title": "First Unique Character in a String",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "392": {
+        "title": "Is Subsequence",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "394": {
+        "title": "Decode String",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "399": {
+        "title": "Evaluate Division",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "405": {
+        "title": "Convert a Number to Hexadecimal",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "412": {
+        "title": "Fizz Buzz",
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    "430": {
+        "title": "Flatten a Multilevel Doubly Linked List",
+        "category": "Linked List",
+        "difficulty": "Medium"
+    },
+    "437": {
+        "title": "Path Sum III",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "443": {
+        "title": "String Compression",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "450": {
+        "title": "Delete Node in a BST",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "451": {
+        "title": "Sort Characters By Frequency",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "509": {
+        "title": "Fibonacci Number",
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    "543": {
+        "title": "Diameter of Binary Tree",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "547": {
+        "title": "Number of Provinces",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "560": {
+        "title": "Subarray Sum Equals K",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "605": {
+        "title": "Can Place Flowers",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "611": {
+        "title": "Valid Triangle Number",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "617": {
+        "title": "Merge Two Binary Trees",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "643": {
+        "title": "Maximum Average Subarray I",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "649": {
+        "title": "Dota2 Senate",
+        "category": "Greedy",
+        "difficulty": "Medium"
+    },
+    "700": {
+        "title": "Search in a Binary Search Tree",
+        "category": "Tree",
+        "difficulty": "Easy"
+    },
+    "704": {
+        "title": "Binary Search",
+        "category": "Binary Search",
+        "difficulty": "Easy"
+    },
+    "724": {
+        "title": "Find Pivot Index",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "735": {
+        "title": "Asteroid Collision",
+        "category": "Stack",
+        "difficulty": "Medium"
+    },
+    "797": {
+        "title": "All Paths From Source to Target",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "841": {
+        "title": "Keys and Rooms",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "862": {
+        "title": "Shortest Subarray with Sum at Least K",
+        "category": "Array",
+        "difficulty": "Hard"
+    },
+    "908": {
+        "title": "Smallest Range I",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "912": {
+        "title": "Sort an Array",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "933": {
+        "title": "Number of Recent Calls",
+        "category": "Queue",
+        "difficulty": "Easy"
+    },
+    "977": {
+        "title": "Squares of a Sorted Array",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "994": {
+        "title": "Rotting Oranges",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "1004": {
+        "title": "Max Consecutive Ones III",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "1029": {
+        "title": "Two City Scheduling",
+        "category": "Greedy",
+        "difficulty": "Medium"
+    },
+    "1047": {
+        "title": "Remove All Adjacent Duplicates In String",
+        "category": "Stack",
+        "difficulty": "Easy"
+    },
+    "1071": {
+        "title": "Greatest Common Divisor of Strings",
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    "1137": {
+        "title": "N-th Tribonacci Number",
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    "1160": {
+        "title": "Find Words That Can Be Formed by Characters",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "1161": {
+        "title": "Maximum Level Sum of a Binary Tree",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "1169": {
+        "title": "Invalid Transactions",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "1207": {
+        "title": "Unique Number of Occurrences",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "1209": {
+        "title": "Remove All Adjacent Duplicates in String II",
+        "category": "Stack",
+        "difficulty": "Medium"
+    },
+    "1244": {
+        "title": "Design A Leaderboard",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "1274": {
+        "title": "Number of Ships in a Rectangle",
+        "category": "Array",
+        "difficulty": "Hard"
+    },
+    "1347": {
+        "title": "Minimum Number of Steps to Make Two Strings Anagram",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "1372": {
+        "title": "Longest ZigZag Path in a Binary Tree",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "1396": {
+        "title": "Design Underground System",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "1431": {
+        "title": "Kids With the Greatest Number of Candies",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "1448": {
+        "title": "Count Good Nodes in Binary Tree",
+        "category": "Tree",
+        "difficulty": "Medium"
+    },
+    "1456": {
+        "title": "Maximum Number of Vowels in a Substring of Given Length",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "1466": {
+        "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "1472": {
+        "title": "Design Browser History",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "1614": {
+        "title": "Maximum Nesting Depth of the Parentheses",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "1636": {
+        "title": "Sort Array by Increasing Frequency",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "1656": {
+        "title": "Design an Ordered Stream",
+        "category": "Design",
+        "difficulty": "Easy"
+    },
+    "1657": {
+        "title": "Determine if Two Strings Are Close",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "1679": {
+        "title": "Max Number of K-Sum Pairs",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "1732": {
+        "title": "Find the Highest Altitude",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "1756": {
+        "title": "Design Most Recently Used Queue",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "1768": {
+        "title": "Merge Strings Alternately",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "1845": {
+        "title": "Seat Reservation Manager",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "1859": {
+        "title": "Sorting the Sentence",
+        "category": "String",
+        "difficulty": "Easy"
+    },
+    "1926": {
+        "title": "Nearest Exit from Entrance in Maze",
+        "category": "Graph",
+        "difficulty": "Medium"
+    },
+    "2095": {
+        "title": "Delete the Middle Node of a Linked List",
+        "category": "Linked List",
+        "difficulty": "Medium"
+    },
+    "2130": {
+        "title": "Maximum Twin Sum of a Linked List",
+        "category": "Linked List",
+        "difficulty": "Medium"
+    },
+    "2215": {
+        "title": "Find the Difference of Two Arrays",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "2300": {
+        "title": "Successful Pairs of Spells and Potions",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "2336": {
+        "title": "Smallest Number in Infinite Set",
+        "category": "Design",
+        "difficulty": "Medium"
+    },
+    "2352": {
+        "title": "Equal Row and Column Pairs",
+        "category": "Matrix",
+        "difficulty": "Medium"
+    },
+    "2390": {
+        "title": "Removing Stars From a String",
+        "category": "String",
+        "difficulty": "Medium"
+    },
+    "2462": {
+        "title": "Total Cost to Hire K Workers",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "2529": {
+        "title": "Maximum Count of Positive Integer and Negative Integer",
+        "category": "Array",
+        "difficulty": "Easy"
+    },
+    "2542": {
+        "title": "Maximum Subsequence Score",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "2620": {
+        "title": "Counter",
+        "category": "Design",
+        "difficulty": "Easy"
+    },
+    "2665": {
+        "title": "Counter II",
+        "category": "Design",
+        "difficulty": "Easy"
+    },
+    "2667": {
+        "title": "Create Hello World Function",
+        "category": "Design",
+        "difficulty": "Easy"
+    },
+    "2704": {
+        "title": "To Be Or Not To Be",
+        "category": "Design",
+        "difficulty": "Easy"
+    },
+    "138": {
+        "title": "Copy List with Random Pointer",
+        "category": "Linked List",
+        "difficulty": "Medium"
+    },
+    "15": {
+        "title": "3Sum",
+        "category": "Array",
+        "difficulty": "Medium"
+    },
+    "225": {
+        "title": "Implement Stack using Queues",
+        "category": "Stack",
+        "difficulty": "Easy"
+    }
+}
