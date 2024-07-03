@@ -1,6 +1,6 @@
-# LeetCode Solutions
+# Leetcode Solutions
 
-Welcome to my LeetCode Solutions repository! This repository contains solutions to various LeetCode problems that I've solved. The solutions are organized by problem number, category, and difficulty.
+Welcome to my LeetCode repository! This website contains my solutions to various LeetCode problems that I've solved. The solutions are organized by problem number, Data Structure & Algorithm category, and difficulty.
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@ Welcome to my LeetCode Solutions repository! This repository contains solutions 
 
 ## About
 
-This repository serves as a collection of a few of my solutions to problems on [LeetCode](https://leetcode.com/).
+This repository serves as a collection of my solutions to various Data Structures, Algorithms, & Object-Oriented Design challenges on [LeetCode](https://leetcode.com/).
 
 ## Solutions
 
