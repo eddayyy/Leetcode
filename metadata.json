@@ -803,5 +803,10 @@
         "title": "Implement Queue using Stacks",
         "category": "Stack",
         "difficulty": "Easy"
+    },
+    "251": {
+        "title": "Flatten 2D Vector",
+        "category": "Array",
+        "difficulty": "Medium"
     }
 }
