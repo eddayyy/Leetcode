@@ -808,5 +808,20 @@
         "title": "Flatten 2D Vector",
         "category": "Array",
         "difficulty": "Medium"
+    },
+    "290": {
+        "title": "Word Pattern",
+        "category": "Hashmap",
+        "difficulty": "Easy"
+    },
+    "36": {
+        "title": "Valid Sudoku",
+        "category": "Matrix",
+        "difficulty": "Medium"
+    },
+    "54": {
+        "title": "Spiral Matrix",
+        "category": "Matrix",
+        "difficulty": "Medium"
     }
 }
