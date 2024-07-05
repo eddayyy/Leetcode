@@ -823,5 +823,10 @@
         "title": "Spiral Matrix",
         "category": "Matrix",
         "difficulty": "Medium"
+    },
+    "100": {
+        "title": "Same Tree",
+        "category": "Binary Tree",
+        "difficulty": "Easy"
     }
 }
