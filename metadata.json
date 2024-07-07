@@ -828,5 +828,10 @@
         "title": "Same Tree",
         "category": "Binary Tree",
         "difficulty": "Easy"
+    },
+    "19": {
+        "title": "Remove Nth Node From End of List",
+        "category": "Linked List",
+        "difficulty": "Medium"
     }
 }
