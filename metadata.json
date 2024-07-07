@@ -838,5 +838,15 @@
         "title": "Remove Duplicates from Sorted list II",
         "category": "Linked List",
         "difficulty": "Medium"
+    },
+    "61": {
+        "title": "Rotate List",
+        "category": "Linked List",
+        "difficulty": "Medium s"
+    },
+    "86": {
+        "title": "Partition List",
+        "category": "Linked List",
+        "difficulty": "Medium"
     }
 }
