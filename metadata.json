@@ -843,5 +843,10 @@
         "title": "Path Sum",
         "category": "Binary Tree",
         "difficulty": "Easy"
+    },
+    "222": {
+        "title": "Count Complete Tree Nodes",
+        "category": "Binary Tree",
+        "difficulty": "Easy"
     }
 }
