@@ -173,10 +173,6 @@ This repository serves as a collection of my solutions to various Data Structure
 """
 
     print("Updating README.md and index.md...")
-    print("README.md content:")
-    print(readme_content)
-    print("index.md content:")
-    print(index_content)
 
     with open('README.md', 'w') as f:
         f.write(readme_content)
