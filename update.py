@@ -75,7 +75,9 @@ def generate_markdown_table(problems_metadata):
     print("Generating Markdown table...")
     table_data = []
     for problem_number, data in sorted(problems_metadata.items(), key=lambda x: int(x[0])):
-        solution_link = f"./solutions/{problem_number}.{'py' if os.path.exists(f'solutions/{problem_number}.py') else 'cpp' if os.path.exists(f'solutions/{problem_number}.cpp') else 'js'}"
+        solution_link = (
+            f"./solutions/{problem_number}.{'py' if os.path.exists(f'solutions/{problem_number}.py') else 'cpp' if os.path.exists(f'solutions/{problem_number}.cpp') else 'js' if os.path.exists(f'solutions/{problem_number}.js') else '#'}"
+        )
         difficulty_badge = {
             "Easy": "![Easy](https://img.shields.io/badge/-Easy-brightgreen)",
             "Medium": "![Medium](https://img.shields.io/badge/-Medium-yellow)",
@@ -86,9 +88,12 @@ def generate_markdown_table(problems_metadata):
             f"[{data['title']}]({f'https://leetcode.com/problems/{data["title"].lower().replace(" ", "-").replace("(", "").replace(")", "").replace("'", "")}/'})",
             data['category'],
             difficulty_badge,
-            f"[Solution]({solution_link})"
+            f"[Solution]({solution_link})" if solution_link != './solutions/#' else "No Solution"
         ])
-    return tabulate(table_data, headers=["Problem Number", "Title", "Category", "Difficulty", "Solution Link"], tablefmt="github")
+    table_md = tabulate(table_data, headers=["Problem Number", "Title", "Category", "Difficulty", "Solution Link"], tablefmt="github")
+    print("Generated Markdown Table:")
+    print(table_md)
+    return table_md
 
 # Update README.md and index.md
 def update_markdown_files(problems_metadata):
@@ -114,6 +119,9 @@ This repository serves as a collection of my solutions to various Data Structure
 """
 
     print("Updating README.md and index.md...")
+    print("README.md content:")
+    print(readme_content)
+
     with open('README.md', 'w') as f:
         f.write(readme_content)
 
@@ -130,4 +138,6 @@ if __name__ == "__main__":
     # Save updated metadata if there are new solutions
     if new_solutions > 0:
         save_problems_metadata(updated_metadata)
-        # Update markdown
+    # Update markdown files
+    update_markdown_files(updated_metadata)
+    print("Update process completed.")
