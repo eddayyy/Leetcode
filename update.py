@@ -130,8 +130,4 @@ if __name__ == "__main__":
     # Save updated metadata if there are new solutions
     if new_solutions > 0:
         save_problems_metadata(updated_metadata)
-        # Update markdown files
-        update_markdown_files(updated_metadata)
-    else:
-        print("No changes detected, skipping write operations.")
-    print("Update process completed.")
+        # Update markdown
