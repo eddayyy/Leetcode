@@ -70,34 +70,69 @@ def extract_problem_info(file_path, extension):
 
     return title, category, difficulty
 
-# Generate Markdown table
-def generate_markdown_table(problems_metadata):
-    print("Generating Markdown table...")
+# Generate Markdown table for README.md
+def generate_readme_table(problems_metadata):
+    print("Generating Markdown table for README.md...")
     table_data = []
     for problem_number, data in sorted(problems_metadata.items(), key=lambda x: int(x[0])):
-        solution_link = (
-            f"./solutions/{problem_number}.{'py' if os.path.exists(f'solutions/{problem_number}.py') else 'cpp' if os.path.exists(f'solutions/{problem_number}.cpp') else 'js' if os.path.exists(f'solutions/{problem_number}.js') else '#'}"
+        solution_file = (
+            f"{problem_number}.py" if os.path.exists(f'solutions/{problem_number}.py') else
+            f"{problem_number}.cpp" if os.path.exists(f'solutions/{problem_number}.cpp') else
+            f"{problem_number}.js" if os.path.exists(f'solutions/{problem_number}.js') else
+            None
         )
+        solution_link = f"./solutions/{solution_file}" if solution_file else "#"
         difficulty_badge = {
             "Easy": "![Easy](https://img.shields.io/badge/-Easy-brightgreen)",
             "Medium": "![Medium](https://img.shields.io/badge/-Medium-yellow)",
             "Hard": "![Hard](https://img.shields.io/badge/-Hard-red)"
-        }[data['difficulty']]
+        }.get(data['difficulty'], f"![Unknown](https://img.shields.io/badge/-{data['difficulty'].replace(' ', '%20')}-lightgrey)")
         table_data.append([
             problem_number,
             f"[{data['title']}]({f'https://leetcode.com/problems/{data["title"].lower().replace(" ", "-").replace("(", "").replace(")", "").replace("'", "")}/'})",
             data['category'],
             difficulty_badge,
-            f"[Solution]({solution_link})" if solution_link != './solutions/#' else "No Solution"
+            f"[Solution]({solution_link})" if solution_file else "No Solution"
         ])
     table_md = tabulate(table_data, headers=["Problem Number", "Title", "Category", "Difficulty", "Solution Link"], tablefmt="github")
-    print("Generated Markdown Table:")
+    print("Generated Markdown Table for README.md:")
+    print(table_md)
+    return table_md
+
+# Generate Markdown table for index.md
+def generate_index_table(problems_metadata):
+    print("Generating Markdown table for index.md...")
+    table_data = []
+    repo_url = "https://github.com/eddayyy/Leetcode/blob/main/solutions"
+    for problem_number, data in sorted(problems_metadata.items(), key=lambda x: int(x[0])):
+        solution_file = (
+            f"{problem_number}.py" if os.path.exists(f'solutions/{problem_number}.py') else
+            f"{problem_number}.cpp" if os.path.exists(f'solutions/{problem_number}.cpp') else
+            f"{problem_number}.js" if os.path.exists(f'solutions/{problem_number}.js') else
+            None
+        )
+        solution_link = f"{repo_url}/{solution_file}" if solution_file else "#"
+        difficulty_badge = {
+            "Easy": "![Easy](https://img.shields.io/badge/-Easy-brightgreen)",
+            "Medium": "![Medium](https://img.shields.io/badge/-Medium-yellow)",
+            "Hard": "![Hard](https://img.shields.io/badge/-Hard-red)"
+        }.get(data['difficulty'], f"![Unknown](https://img.shields.io/badge/-{data['difficulty'].replace(' ', '%20')}-lightgrey)")
+        table_data.append([
+            problem_number,
+            f"[{data['title']}]({f'https://leetcode.com/problems/{data["title"].lower().replace(" ", "-").replace("(", "").replace(")", "").replace("'", "")}/'})",
+            data['category'],
+            difficulty_badge,
+            f"[Solution]({solution_link})" if solution_file else "No Solution"
+        ])
+    table_md = tabulate(table_data, headers=["Problem Number", "Title", "Category", "Difficulty", "Solution Link"], tablefmt="github")
+    print("Generated Markdown Table for index.md:")
     print(table_md)
     return table_md
 
 # Update README.md and index.md
 def update_markdown_files(problems_metadata):
-    table_md = generate_markdown_table(problems_metadata)
+    readme_table_md = generate_readme_table(problems_metadata)
+    index_table_md = generate_index_table(problems_metadata)
 
     readme_content = f"""
 # LeetCode Solutions
@@ -115,18 +150,39 @@ This repository serves as a collection of my solutions to various Data Structure
 
 ## Solutions
 
-{table_md}
+{readme_table_md}
+"""
+
+    index_content = f"""
+# LeetCode Solutions
+
+Welcome to my LeetCode repository! This [website](https://leetcode.eduardonunez.dev) contains my solutions to various LeetCode problems that I've solved. The solutions are organized by problem number, Data Structure & Algorithm category, and difficulty.
+
+## Table of Contents
+
+- [About](#about)
+- [Solutions](#solutions)
+
+## About
+
+This repository serves as a collection of my solutions to various Data Structures, Algorithms, & Object-Oriented Design challenges on [LeetCode](https://leetcode.com/).
+
+## Solutions
+
+{index_table_md}
 """
 
     print("Updating README.md and index.md...")
     print("README.md content:")
     print(readme_content)
+    print("index.md content:")
+    print(index_content)
 
     with open('README.md', 'w') as f:
         f.write(readme_content)
 
     with open('index.md', 'w') as f:
-        f.write(readme_content)
+        f.write(index_content)
     print("README.md and index.md updated successfully.")
 
 if __name__ == "__main__":

@@ -24,20 +24,10 @@
     "category": "String",
     "difficulty": "Medium"
   },
-  "7": {
-    "title": "Reverse Integer",
-    "category": "Math",
-    "difficulty": "Easy"
-  },
   "9": {
     "title": "Palindrome Number",
     "category": "Math",
     "difficulty": "Easy"
-  },
-  "10": {
-    "title": "Regular Expression Matching",
-    "category": "String",
-    "difficulty": "Hard"
   },
   "11": {
     "title": "Container With Most Water",
@@ -93,11 +83,6 @@
     "title": "Search Insert Position",
     "category": "Array",
     "difficulty": "Easy"
-  },
-  "42": {
-    "title": "Trapping Rain Water",
-    "category": "Array",
-    "difficulty": "Hard"
   },
   "53": {
     "title": "Maximum Subarray",
