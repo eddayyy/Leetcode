@@ -94,8 +94,7 @@ def generate_readme_table(problems_metadata):
             f"[Solution]({solution_link})" if solution_file else "No Solution"
         ])
     table_md = tabulate(table_data, headers=["Problem Number", "Title", "Category", "Difficulty", "Solution Link"], tablefmt="github")
-    print("Generated Markdown Table for README.md:")
-    print(table_md)
+    print("Generated Markdown Table for README.md")
     return table_md
 
 # Generate Markdown table for index.md
@@ -124,8 +123,7 @@ def generate_index_table(problems_metadata):
             f"[Solution]({solution_link})" if solution_file else "No Solution"
         ])
     table_md = tabulate(table_data, headers=["Problem Number", "Title", "Category", "Difficulty", "Solution Link"], tablefmt="github")
-    print("Generated Markdown Table for index.md:")
-    print(table_md)
+    print("Generated Markdown Table for index.md")
     return table_md
 
 # Update README.md and index.md
