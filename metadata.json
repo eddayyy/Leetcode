@@ -848,5 +848,10 @@
         "title": "Partition List",
         "category": "Linked List",
         "difficulty": "Medium"
+    },
+    "114": {
+        "title": "Flatten Binary Tree to Linked List",
+        "category": "Binary Tree",
+        "difficulty": "Medium"
     }
 }

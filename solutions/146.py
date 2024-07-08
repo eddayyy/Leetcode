@@ -5,6 +5,7 @@
 
 # Which data structures to use? 
 #   - Hashmap to store the cache
+#   - DLL 
 class ListNode:
     def __init__(self, key: int, val:int): 
         self.key = key
