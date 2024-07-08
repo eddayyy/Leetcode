@@ -33,7 +33,6 @@ def detect_new_solutions(problems_metadata):
                     "difficulty": difficulty
                 }
                 new_solutions += 1
-                print(f"New solution detected: {problem_number} - {title}")
     if new_solutions == 0:
         print("No new solutions found.")
     else:
